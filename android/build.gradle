@@ -30,7 +30,7 @@ dependencies {
         // Keeping com.google.android.gms(Google Play services library) as this version range starts at 10.2.1
     }
 
-    testCompile 'junit:junit:4.12'
+    testImplementation 'junit:junit:4.12'
 }
 
 // Adds required manifestPlaceholders keys to allow mainifest merge gradle step to complete
